@@ -88,10 +88,13 @@ namespace AeonMeteorBuff
             // Do damage.
             new BlastAttack
             {
+                // Modified
+                canHurtAttacker = false, 
+                teamIndex = TeamComponent.GetObjectTeam(self.owner),
+                // Default
                 inflictor = self.gameObject,
                 baseDamage = (self.blastDamageCoefficient * self.ownerDamage),
                 baseForce = self.blastForce,
-                canHurtAttacker = false, // Modified
                 crit = self.isCrit,
                 falloffModel = BlastAttack.FalloffModel.Linear,
                 attacker = self.owner,
@@ -100,7 +103,6 @@ namespace AeonMeteorBuff
                 position = impactPosition,
                 procChainMask = new ProcChainMask(),
                 procCoefficient = 1f,
-                teamIndex = TeamComponent.GetObjectTeam(self.owner),
                 radius = self.blastRadius
             }.Fire();
         }
