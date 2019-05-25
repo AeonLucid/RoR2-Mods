@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../AeonMods.props" />
+    
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx">
+            <HintPath>$(BepInEx)\core\BepInEx.dll</HintPath>
+        </Reference>
+        <Reference Include="MMHOOK_Assembly-CSharp">
+            <HintPath>$(BepInEx)\plugins\R2API\MMHOOK_Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="MonoMod.RuntimeDetour">
+            <HintPath>$(BepInEx)\plugins\R2API\MonoMod.RuntimeDetour.dll</HintPath>
+        </Reference>
+        <Reference Include="R2API">
+            <HintPath>$(BepInEx)\plugins\R2API\R2API.dll</HintPath>
+        </Reference>
+        <Reference Include="Facepunch.Steamworks">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\Facepunch.Steamworks.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.IMGUIModule">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.Networking">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.Networking.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.TextRenderingModule">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.UI.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UIElementsModule">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UIModule">
+            <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    
+</Project>

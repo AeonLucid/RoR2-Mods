@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonHud", "AeonHud\AeonHud.csproj", "{10082C84-9106-4D47-B8F8-96A97F05B47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonModdedBypass", "AeonModdedBypass\AeonModdedBypass.csproj", "{83EE7E2C-45B5-4DF5-AC49-D5711DBF4C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonMeteorBuff", "AeonMeteorBuff\AeonMeteorBuff.csproj", "{29FB50F1-AECC-42A4-80CC-342C6FE79485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10082C84-9106-4D47-B8F8-96A97F05B47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10082C84-9106-4D47-B8F8-96A97F05B47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10082C84-9106-4D47-B8F8-96A97F05B47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10082C84-9106-4D47-B8F8-96A97F05B47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EE7E2C-45B5-4DF5-AC49-D5711DBF4C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EE7E2C-45B5-4DF5-AC49-D5711DBF4C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EE7E2C-45B5-4DF5-AC49-D5711DBF4C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EE7E2C-45B5-4DF5-AC49-D5711DBF4C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FB50F1-AECC-42A4-80CC-342C6FE79485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FB50F1-AECC-42A4-80CC-342C6FE79485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FB50F1-AECC-42A4-80CC-342C6FE79485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FB50F1-AECC-42A4-80CC-342C6FE79485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
