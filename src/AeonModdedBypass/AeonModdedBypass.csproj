@@ -14,7 +14,7 @@
             <HintPath>$(BepInEx)\core\BepInEx.dll</HintPath>
         </Reference>
         <Reference Include="MonoMod.RuntimeDetour">
-            <HintPath>$(BepInEx)\plugins\R2API\MonoMod.RuntimeDetour.dll</HintPath>
+            <HintPath>$(BepInEx)\core\MonoMod.RuntimeDetour.dll</HintPath>
         </Reference>
         <Reference Include="Facepunch.Steamworks">
             <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\Facepunch.Steamworks.dll</HintPath>

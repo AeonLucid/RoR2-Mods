@@ -14,16 +14,16 @@
             <HintPath>$(BepInEx)\core\BepInEx.dll</HintPath>
         </Reference>
         <Reference Include="Mono.Cecil">
-            <HintPath>$(BepInEx)\patchers\BepInEx.MonoMod.Loader\Mono.Cecil.dll</HintPath>
+            <HintPath>$(BepInEx)\core\Mono.Cecil.dll</HintPath>
         </Reference>
         <Reference Include="MonoMod.Utils">
-            <HintPath>$(BepInEx)\patchers\BepInEx.MonoMod.Loader\MonoMod.Utils.dll</HintPath>
+            <HintPath>$(BepInEx)\core\MonoMod.Utils.dll</HintPath>
         </Reference>
         <Reference Include="MMHOOK_Assembly-CSharp">
             <HintPath>$(BepInEx)\plugins\R2API\MMHOOK_Assembly-CSharp.dll</HintPath>
         </Reference>
         <Reference Include="MonoMod.RuntimeDetour">
-            <HintPath>$(BepInEx)\plugins\R2API\MonoMod.RuntimeDetour.dll</HintPath>
+            <HintPath>$(BepInEx)\core\MonoMod.RuntimeDetour.dll</HintPath>
         </Reference>
         <Reference Include="Facepunch.Steamworks">
             <HintPath>$(RiskOfRain)\Risk of Rain 2_Data\Managed\Facepunch.Steamworks.dll</HintPath>
