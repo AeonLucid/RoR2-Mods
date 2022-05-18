@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonModdedBypass", "AeonMod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonMeteorBuff", "AeonMeteorBuff\AeonMeteorBuff.csproj", "{29FB50F1-AECC-42A4-80CC-342C6FE79485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonSacrifice", "AeonSacrifice\AeonSacrifice.csproj", "{BE6738E0-AFA2-4A47-A944-5DEB2E789559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{29FB50F1-AECC-42A4-80CC-342C6FE79485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29FB50F1-AECC-42A4-80CC-342C6FE79485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29FB50F1-AECC-42A4-80CC-342C6FE79485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6738E0-AFA2-4A47-A944-5DEB2E789559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6738E0-AFA2-4A47-A944-5DEB2E789559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6738E0-AFA2-4A47-A944-5DEB2E789559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6738E0-AFA2-4A47-A944-5DEB2E789559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
